@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05E144B81EADCFD700C2F1D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E144B71EADCFD700C2F1D1 /* main.m */; };
+		05E144BB1EADCFD700C2F1D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E144BA1EADCFD700C2F1D1 /* AppDelegate.m */; };
+		05E144BE1EADCFD700C2F1D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E144BD1EADCFD700C2F1D1 /* ViewController.m */; };
+		05E144C11EADCFD700C2F1D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05E144BF1EADCFD700C2F1D1 /* Main.storyboard */; };
+		05E144C31EADCFD700C2F1D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05E144C21EADCFD700C2F1D1 /* Assets.xcassets */; };
+		05E144C61EADCFD700C2F1D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05E144C41EADCFD700C2F1D1 /* LaunchScreen.storyboard */; };
+		05E144D11EADCFD700C2F1D1 /* XDPodDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E144D01EADCFD700C2F1D1 /* XDPodDemoTests.m */; };
+		05E144DC1EADCFD700C2F1D1 /* XDPodDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05E144DB1EADCFD700C2F1D1 /* XDPodDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05E144CD1EADCFD700C2F1D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05E144AB1EADCFD700C2F1D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05E144B21EADCFD700C2F1D1;
+			remoteInfo = XDPodDemo;
+		};
+		05E144D81EADCFD700C2F1D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05E144AB1EADCFD700C2F1D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05E144B21EADCFD700C2F1D1;
+			remoteInfo = XDPodDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05E144B31EADCFD700C2F1D1 /* XDPodDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XDPodDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05E144B71EADCFD700C2F1D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05E144B91EADCFD700C2F1D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		05E144BA1EADCFD700C2F1D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		05E144BC1EADCFD700C2F1D1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		05E144BD1EADCFD700C2F1D1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		05E144C01EADCFD700C2F1D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05E144C21EADCFD700C2F1D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05E144C51EADCFD700C2F1D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05E144C71EADCFD700C2F1D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05E144CC1EADCFD700C2F1D1 /* XDPodDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XDPodDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05E144D01EADCFD700C2F1D1 /* XDPodDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDPodDemoTests.m; sourceTree = "<group>"; };
+		05E144D21EADCFD700C2F1D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05E144D71EADCFD700C2F1D1 /* XDPodDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XDPodDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05E144DB1EADCFD700C2F1D1 /* XDPodDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDPodDemoUITests.m; sourceTree = "<group>"; };
+		05E144DD1EADCFD700C2F1D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05E144B01EADCFD700C2F1D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05E144C91EADCFD700C2F1D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05E144D41EADCFD700C2F1D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05E144AA1EADCFD700C2F1D1 = {
+			isa = PBXGroup;
+			children = (
+				05E144B51EADCFD700C2F1D1 /* XDPodDemo */,
+				05E144CF1EADCFD700C2F1D1 /* XDPodDemoTests */,
+				05E144DA1EADCFD700C2F1D1 /* XDPodDemoUITests */,
+				05E144B41EADCFD700C2F1D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05E144B41EADCFD700C2F1D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05E144B31EADCFD700C2F1D1 /* XDPodDemo.app */,
+				05E144CC1EADCFD700C2F1D1 /* XDPodDemoTests.xctest */,
+				05E144D71EADCFD700C2F1D1 /* XDPodDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05E144B51EADCFD700C2F1D1 /* XDPodDemo */ = {
+			isa = PBXGroup;
+			children = (
+				05E144B91EADCFD700C2F1D1 /* AppDelegate.h */,
+				05E144BA1EADCFD700C2F1D1 /* AppDelegate.m */,
+				05E144BC1EADCFD700C2F1D1 /* ViewController.h */,
+				05E144BD1EADCFD700C2F1D1 /* ViewController.m */,
+				05E144BF1EADCFD700C2F1D1 /* Main.storyboard */,
+				05E144C21EADCFD700C2F1D1 /* Assets.xcassets */,
+				05E144C41EADCFD700C2F1D1 /* LaunchScreen.storyboard */,
+				05E144C71EADCFD700C2F1D1 /* Info.plist */,
+				05E144B61EADCFD700C2F1D1 /* Supporting Files */,
+			);
+			path = XDPodDemo;
+			sourceTree = "<group>";
+		};
+		05E144B61EADCFD700C2F1D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05E144B71EADCFD700C2F1D1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05E144CF1EADCFD700C2F1D1 /* XDPodDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				05E144D01EADCFD700C2F1D1 /* XDPodDemoTests.m */,
+				05E144D21EADCFD700C2F1D1 /* Info.plist */,
+			);
+			path = XDPodDemoTests;
+			sourceTree = "<group>";
+		};
+		05E144DA1EADCFD700C2F1D1 /* XDPodDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05E144DB1EADCFD700C2F1D1 /* XDPodDemoUITests.m */,
+				05E144DD1EADCFD700C2F1D1 /* Info.plist */,
+			);
+			path = XDPodDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05E144B21EADCFD700C2F1D1 /* XDPodDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05E144E01EADCFD700C2F1D1 /* Build configuration list for PBXNativeTarget "XDPodDemo" */;
+			buildPhases = (
+				05E144AF1EADCFD700C2F1D1 /* Sources */,
+				05E144B01EADCFD700C2F1D1 /* Frameworks */,
+				05E144B11EADCFD700C2F1D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XDPodDemo;
+			productName = XDPodDemo;
+			productReference = 05E144B31EADCFD700C2F1D1 /* XDPodDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05E144CB1EADCFD700C2F1D1 /* XDPodDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05E144E31EADCFD700C2F1D1 /* Build configuration list for PBXNativeTarget "XDPodDemoTests" */;
+			buildPhases = (
+				05E144C81EADCFD700C2F1D1 /* Sources */,
+				05E144C91EADCFD700C2F1D1 /* Frameworks */,
+				05E144CA1EADCFD700C2F1D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05E144CE1EADCFD700C2F1D1 /* PBXTargetDependency */,
+			);
+			name = XDPodDemoTests;
+			productName = XDPodDemoTests;
+			productReference = 05E144CC1EADCFD700C2F1D1 /* XDPodDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05E144D61EADCFD700C2F1D1 /* XDPodDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05E144E61EADCFD700C2F1D1 /* Build configuration list for PBXNativeTarget "XDPodDemoUITests" */;
+			buildPhases = (
+				05E144D31EADCFD700C2F1D1 /* Sources */,
+				05E144D41EADCFD700C2F1D1 /* Frameworks */,
+				05E144D51EADCFD700C2F1D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05E144D91EADCFD700C2F1D1 /* PBXTargetDependency */,
+			);
+			name = XDPodDemoUITests;
+			productName = XDPodDemoUITests;
+			productReference = 05E144D71EADCFD700C2F1D1 /* XDPodDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05E144AB1EADCFD700C2F1D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "席亚楠";
+				TargetAttributes = {
+					05E144B21EADCFD700C2F1D1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					05E144CB1EADCFD700C2F1D1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 05E144B21EADCFD700C2F1D1;
+					};
+					05E144D61EADCFD700C2F1D1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 05E144B21EADCFD700C2F1D1;
+					};
+				};
+			};
+			buildConfigurationList = 05E144AE1EADCFD700C2F1D1 /* Build configuration list for PBXProject "XDPodDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05E144AA1EADCFD700C2F1D1;
+			productRefGroup = 05E144B41EADCFD700C2F1D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05E144B21EADCFD700C2F1D1 /* XDPodDemo */,
+				05E144CB1EADCFD700C2F1D1 /* XDPodDemoTests */,
+				05E144D61EADCFD700C2F1D1 /* XDPodDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05E144B11EADCFD700C2F1D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05E144C61EADCFD700C2F1D1 /* LaunchScreen.storyboard in Resources */,
+				05E144C31EADCFD700C2F1D1 /* Assets.xcassets in Resources */,
+				05E144C11EADCFD700C2F1D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05E144CA1EADCFD700C2F1D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05E144D51EADCFD700C2F1D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05E144AF1EADCFD700C2F1D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05E144BE1EADCFD700C2F1D1 /* ViewController.m in Sources */,
+				05E144BB1EADCFD700C2F1D1 /* AppDelegate.m in Sources */,
+				05E144B81EADCFD700C2F1D1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05E144C81EADCFD700C2F1D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05E144D11EADCFD700C2F1D1 /* XDPodDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05E144D31EADCFD700C2F1D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05E144DC1EADCFD700C2F1D1 /* XDPodDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05E144CE1EADCFD700C2F1D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05E144B21EADCFD700C2F1D1 /* XDPodDemo */;
+			targetProxy = 05E144CD1EADCFD700C2F1D1 /* PBXContainerItemProxy */;
+		};
+		05E144D91EADCFD700C2F1D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05E144B21EADCFD700C2F1D1 /* XDPodDemo */;
+			targetProxy = 05E144D81EADCFD700C2F1D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05E144BF1EADCFD700C2F1D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05E144C01EADCFD700C2F1D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05E144C41EADCFD700C2F1D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05E144C51EADCFD700C2F1D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05E144DE1EADCFD700C2F1D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05E144DF1EADCFD700C2F1D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05E144E11EADCFD700C2F1D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XDPodDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dingjia.XDPodDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		05E144E21EADCFD700C2F1D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XDPodDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dingjia.XDPodDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		05E144E41EADCFD700C2F1D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XDPodDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dingjia.XDPodDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XDPodDemo.app/XDPodDemo";
+			};
+			name = Debug;
+		};
+		05E144E51EADCFD700C2F1D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XDPodDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dingjia.XDPodDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XDPodDemo.app/XDPodDemo";
+			};
+			name = Release;
+		};
+		05E144E71EADCFD700C2F1D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XDPodDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dingjia.XDPodDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XDPodDemo;
+			};
+			name = Debug;
+		};
+		05E144E81EADCFD700C2F1D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XDPodDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dingjia.XDPodDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XDPodDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05E144AE1EADCFD700C2F1D1 /* Build configuration list for PBXProject "XDPodDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05E144DE1EADCFD700C2F1D1 /* Debug */,
+				05E144DF1EADCFD700C2F1D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05E144E01EADCFD700C2F1D1 /* Build configuration list for PBXNativeTarget "XDPodDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05E144E11EADCFD700C2F1D1 /* Debug */,
+				05E144E21EADCFD700C2F1D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05E144E31EADCFD700C2F1D1 /* Build configuration list for PBXNativeTarget "XDPodDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05E144E41EADCFD700C2F1D1 /* Debug */,
+				05E144E51EADCFD700C2F1D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05E144E61EADCFD700C2F1D1 /* Build configuration list for PBXNativeTarget "XDPodDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05E144E71EADCFD700C2F1D1 /* Debug */,
+				05E144E81EADCFD700C2F1D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05E144AB1EADCFD700C2F1D1 /* Project object */;
+}
