@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "SelleButton.h"
 @interface ViewController ()
 
 @end
@@ -18,7 +18,12 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     //NSLog(@"这是个demo");
-
+    SelleButton * btn = [SelleButton SelleButton];
+    btn.backgroundColor = [UIColor redColor];
+    btn.frame = CGRectMake(100, 100, 80, 100);
+    [btn setTitle:@"张三" forState:UIControlStateNormal];
+    //[btn setBackgroundImage:[UIImage imageNamed:@"2bj"] forState:UIControlStateHighlighted];
+    [self.view addSubview:btn];
 }
 
 
